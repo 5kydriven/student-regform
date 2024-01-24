@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    padding: 10%;
+    font-size: 20px;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+}
+
+.pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 30%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#close-btn{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#close-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
